@@ -18,3 +18,28 @@ transition: all 0.2s linear;
 background-color: #ef233c;
 color: #edf2f4;
 }
+/* bodySection Styling **************************************/
+.bodySection {
+  background-color: #edf2f4;
+border:2px solid #d90429;
+}
+.videoHolder {
+  display:flex;
+  justify-content: center;
+  /* margin:auto; */
+}
+
+.services {
+  padding:15px;
+  display:flex;
+  justify-content: space-around;
+}
+
+.serviceSign {
+  width: 30%;
+  max-width:100px;
+  text-align: center;
+}
+.serviceSign img {
+  width:100%;
+}
