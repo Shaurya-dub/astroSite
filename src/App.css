@@ -1,5 +1,5 @@
 .navigation {
-  background-color: #ef233c;
+  background-color: #d90429;
 }
 
 .navigationContainer {
@@ -43,3 +43,28 @@ border:2px solid #d90429;
 .serviceSign img {
   width:100%;
 }
+
+
+/* howWeCanHelp Styling **************************************/
+.howWeCanHelpHolder h2 {
+  text-align: center;
+  color: #ef233c;
+}
+/* benefits Styling **************************************/
+
+.benefitHolder {
+  display:flex;
+  width:60%;
+  margin:auto;
+  margin-bottom:20px;
+  /* background-color: #edf2f4; */
+  align-items: baseline;
+  justify-content: space-between;
+} 
+.benefitHolder img {
+  filter:drop-shadow(-16px 16px #8d99ae);
+}
+.benefitTextHolder {
+  width:70%;
+}
+
