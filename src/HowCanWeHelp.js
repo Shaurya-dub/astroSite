@@ -7,6 +7,7 @@ function HowCanWeHelp() {
                 <Benefits />
                 <Benefits />
                 <Benefits />
+                <Benefits />
             </div>
         </div>
     )
