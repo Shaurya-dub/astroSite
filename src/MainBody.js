@@ -19,7 +19,7 @@ function MainBody() {
           </Col>
         </Row>
 
-        <Row className="d-flex justify-content-center">
+        <Row className="d-flex justify-content-center services">
           <Col>
             <div className="serviceSign">
               <img src={astrology} alt="astrology symbol" />
