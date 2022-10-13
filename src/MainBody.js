@@ -8,11 +8,11 @@ function MainBody() {
   return (
     <>
       <Container fluid className="bodySection">
-        <Row className="text-center">
-          <Col>
+        <Row className="text-center d-flex justify-content-center">
+          <Col className="d-flex justify-content-center" lg={5}>
             <iframe
               title="placeholder video"
-              width="40%"
+              width="100%"
               height="600px"
               src="https://www.youtube.com/embed/tgbNymZ7vqY"
             ></iframe>
