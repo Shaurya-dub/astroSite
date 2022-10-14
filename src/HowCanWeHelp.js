@@ -6,17 +6,17 @@ function HowCanWeHelp() {
       <Row>
         <h2>How We Can Help</h2>
       </Row>
-      <Row>
-        <Col>
+      <Row className="d-flex justify-content-center flex-column">
+        <Col className="benefitsCard">
           <Benefits />
         </Col>
-        <Col>
+        <Col className="benefitsCard">
           <Benefits />
         </Col>
-        <Col>
+        <Col className="benefitsCard">
           <Benefits />
         </Col>
-        <Col>
+        <Col className="benefitsCard">
           <Benefits />
         </Col>
       </Row>

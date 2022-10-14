@@ -55,6 +55,10 @@ border:2px solid #d90429;
   text-align: center;
   color: #ef233c;
 }
+
+.benefitsCard {
+  margin-bottom: 50px;
+}
 /* benefits Styling **************************************/
 
 .benefitHolder {
@@ -68,6 +72,9 @@ border:2px solid #d90429;
 } 
 .benefitHolder img {
   filter:drop-shadow(-16px 16px #8d99ae);
+}
+.benefitHolder img :nth-of-type(even) {
+  filter: drop-shadow(-16px 16px #db4315);
 }
 .benefitTextHolder {
   width:70%;
