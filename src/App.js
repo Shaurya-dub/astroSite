@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -14,10 +14,12 @@ function App() {
     <div>
       <Router>
         <NavBar />
-        <Switch path="/" component={MainBody}>
-        </Switch> 
-        <Switch path="/Services" component={Services}>
-        </Switch>
+        <Routes>
+        <Route path="/" element={<MainBody />} />
+        </Routes>   
+        <Routes>
+        <Route path="/services" element={<Services />} />
+        </Routes>
         <Footer />
       </Router>
     </div>
