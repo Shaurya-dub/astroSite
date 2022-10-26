@@ -80,3 +80,22 @@ border:2px solid #d90429;
   width:70%;
 }
 
+/* Services Styling **************************************/
+
+.rowHeading {
+  text-align: center;
+  padding: 20px;
+}
+
+.servicesCard {
+  display:flex;
+  margin:20px 0px 50px 20px;
+  /* flex-direction: column; */
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.servicesTextHolder {
+  width:70%;
+}
+
