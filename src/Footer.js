@@ -52,7 +52,7 @@ function Footer() {
 
       <Row className="socialIcons">
         <div className="footerSocialCard">
-          <h4>Heading one</h4>
+          <h4>Social</h4>
           <ul>
             <li>
               <a href="#">
