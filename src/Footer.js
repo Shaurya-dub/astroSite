@@ -1,5 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
+
 function Footer() {
   return (
     <Container>
@@ -59,14 +63,14 @@ function Footer() {
                 <FontAwesomeIcon icon="fa-brands fa-square-facebook" />
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#">
-                <FontAwesomeIcon icon="fa-brands fa-instagram" />
+                <FontAwesomeIcon icon={brands("twitter")} />
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#">
-                <FontAwesomeIcon icon="fa-regular fa-envelope" />
+                <FontAwesomeIcon icon={faEnvelope} />
               </a>
             </li>
           </ul>
