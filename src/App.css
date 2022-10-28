@@ -102,6 +102,16 @@ border:2px solid #d90429;
 
 /* Services Styling **************************************/
 
-.footerSocialCard {
-  background-color: #d90429;
+/* Footer Styling **************************************/
+
+/* .footer {
+  background-color:#d90429;
+} */
+.footerSocialCard ul {
+  width:30%;
+  display: flex;
+  list-style: none;
+  font-size: 50px;
+  justify-content: space-between;
 }
+
