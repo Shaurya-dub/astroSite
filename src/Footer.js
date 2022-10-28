@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
+// import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faTwitter, faFacebook} from "@fortawesome/free-brands-svg-icons";
 
@@ -8,7 +8,7 @@ import { faTwitter, faFacebook} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
-    <Container className="footer">
+    <Container className="footer footerContainer">
       <Row>
         <Col>
           <div className="footerLogo">

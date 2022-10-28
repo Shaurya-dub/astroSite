@@ -103,15 +103,22 @@ border:2px solid #d90429;
 /* Services Styling **************************************/
 
 /* Footer Styling **************************************/
-
-/* .footer {
+.footerSocialCard {
+display: flex;
+flex-direction: column;
+}
+.footer.footerContainer {
   background-color:#d90429;
-} */
+  width:100vw;
+  margin:0px;
+}
 .footerSocialCard ul {
   width:30%;
   display: flex;
   list-style: none;
   font-size: 50px;
   justify-content: space-between;
+  align-self:center;
+  color:#d90429;
 }
 
