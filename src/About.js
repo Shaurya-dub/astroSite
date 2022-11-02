@@ -3,8 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 const About = () => {
   return (
     <Container>
-      <Row>
-        <div className="aboutHolder">
+      <Row className="aboutHolder">
+        <div>
           <h4>Astrologer 1</h4>
           <div>
             <img src="https://placekitten.com/250/250" alt="placeholder" />
@@ -19,8 +19,9 @@ const About = () => {
             architecto soluta optio consectetur? Excepturi, sed architecto.
           </p>
         </div>
-
-        <div className="aboutHolder">
+      </Row>
+      <Row className="aboutHolder">
+        <div>
           <h4>Astrologer 2</h4>
 
           <div>
